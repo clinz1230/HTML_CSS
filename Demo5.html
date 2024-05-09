@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <style>
+            table, th, td {
+                /* border: 1px solid black; */
+                border-collapse: collapse;
+                border-color:black;
+            }
+            th, td {
+                padding: 15px;
+                /* color: red; */
+                /* background-color: aquamarine; */
+            }
+        </style>
+    </head>
+    <body style="background-color: slateblue;">
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" ><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" id="dob" name="dob" ><br>
+
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="phno">Mobile Number:</label>
+            <input type="number" id="phno" name="phno" ><br>
+
+            <label for="gender">Gender:</label>
+            <input type="checkbox" id="gender1" name="gender1" value="Male">
+            <label for="gender1"> Male</label>
+            <input type="checkbox" id="gender2" name="gender2" value="Female">
+            <label for="gender2"> Female</label><br>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" ><br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city"><br>
+            <label for="pin">Pin Code:</label>
+            <input type="number" id="pin" name="pin" ><br>
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state"><br>
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" ><br>
+
+            <label for="hob">Hobbies:</label>
+            <input type="checkbox" id="hob1" name="hob1" value="Dancing">
+            <label for="hob1"> Dancing</label>
+            <input type="checkbox" id="hob2" name="hob2" value="Singing">
+            <label for="hob2"> Singing</label>
+            <input type="checkbox" id="hob3" name="hob3" value="Drawing">
+            <label for="hob3"> Drawing</label>
+            <input type="checkbox" id="hob4" name="hob4" value="Sketching">
+            <label for="hob4"> Sketching</label>
+            <input type="checkbox" id="hob5" name="hob5" value="Others">
+            <label for="hob5"> Others:</label>
+            <input type="text" id="hob5" name="hob5" ><br>
+
+            <label for="qual">Qualification:</label>
+            <table>
+                <thead>
+                    <tr>
+                        <th>SL.N0.</th>
+                        <th>Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of Passing</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Class X</td>
+                        <td><input type="text" id="board1" name="board1"></td>
+                        <td><input type="number" id="perc1" name="perc1"></td>
+                        <td><input type="number" id="year1" name="year1"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Class XII</td>
+                        <td><input type="text" id="board2" name="board2"></td>
+                        <td><input type="number" id="perc2" name="perc2"></td>
+                        <td><input type="number" id="year2" name="year2"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Graduation</td>
+                        <td><input type="text" id="board3" name="board3"></td>
+                        <td><input type="number" id="perc3" name="perc3"></td>
+                        <td><input type="number" id="year3" name="year3"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Masters</td>
+                        <td><input type="text" id="board4" name="board4"></td>
+                        <td><input type="number" id="perc4" name="perc4"></td>
+                        <td><input type="number" id="year4" name="year4"></td>
+                    </tr>
+                
+                </tbody>
+            </table>
+
+            <label for="hob">Courses Applied:</label>
+            <input type="checkbox" id="ca1" name="ca1" value="BCA">
+            <label for="ca1"> BCA</label>
+            <input type="checkbox" id="ca2" name="ca2" value="BCom">
+            <label for="ca2"> BCom</label>
+            <input type="checkbox" id="ca3" name="ca3" value="BSc">
+            <label for="ca3"> BSc</label>
+            <input type="checkbox" id="ca4" name="ca4" value="BA">
+            <label for="ca4"> BA</label><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+          </form>
+        
+    </body>
+</html>
