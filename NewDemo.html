@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        
+        .content {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100vw;
+            height: 80vh;    
+        }
+ 
+        label{
+            display: block;
+            padding-top: 5px;
+        }
+ 
+        input {
+            width: 20vw;
+            margin-bottom: 10px;
+            padding: 10px 14px;
+        }
+ 
+        .side {
+            border: 1px;
+            border-style: solid;
+            padding: 40px;
+        }
+        
+        button {
+            background-color: #555555;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+ 
+    </style>
+</head>
+<body bgcolor="#FF5733">
+    <div>
+        <h1 style="text-align: center;">Welcome to my webpage</h1>
+    </div>
+    <div class="content">
+        <div class="left-side side">
+            <h1>Register</h1>
+            <label for="name">Name</label>
+            <input id="name"/><br/>
+            <label for="email">Email</label>
+            <input id="email"/><br/>   
+            <label for="password">Password</label>
+            <input id="password"/><br/>
+            <button>Register</button>
+        </div>
+        <div class="right-side side">
+            <h1>Login</h1>
+            <label for="email">Email</label>
+            <input id="email"/><br/>   
+            <label for="password">Password</label>
+            <input id="password"/><br/>
+            <button>Login</button>
+            
+        </div>
+    </div>
+</body>
+</html>
